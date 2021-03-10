@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>StudentsResources</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Wiki Title - StudentsResources</title>  
+    <meta name="description" content= "SCR is a place on the internet where you can get a wiki and forum to get answers for info you need in school etc." />
+    <meta name="robots" content= "index, follow">
+  </head>
 
+  <div class="header">
+    <h2>StudentResources <a href="/">Home</a> <a href="/wiki">Wiki</a> <a href="/contact">Contact</a></h2>
+  </div>
+
+  <div>
+    <p>Replace me with the html code.</p>
+    <button onclick="goBack()">Go back to wiki listing.</button>
+    <h4>Wiki Info:</h4>
+    <h4>Created By: Jake Smo</h4>
+    <h4>Last updated: </h4>
+    <h4>User ID: 1</h4>
+    <script>
+    function goBack() {
+    window.history.back();
+    }
+  </script>
+  </div>
+
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
